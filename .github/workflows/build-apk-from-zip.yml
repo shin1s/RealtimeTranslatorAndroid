@@ -31,7 +31,7 @@ jobs:
         run: |
           rm -rf project
           mkdir project
-          unzip -q RealtimeTranslator-Android-FINAL-v3.zip -d project
+          unzip -q RealtimeTranslator-Android-FINAL-v4.zip -d project
           P=$(dirname "$(find project -name settings.gradle.kts -type f -print -quit)")
           cd "$P"
           gradle --no-daemon assembleDebug
